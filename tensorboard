@@ -1,0 +1,2 @@
+PATH = directory/contains/log/files
+tensorboard --logdir=$PATH 
