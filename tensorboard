@@ -1,2 +1,5 @@
 PATH = directory/contains/log/files
 tensorboard --logdir=$PATH 
+
+#open Tensorboard web page
+localhost:6006
