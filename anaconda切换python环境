@@ -1,0 +1,15 @@
+http://blog.csdn.net/tangwenbo124/article/details/74784044
+
+##################################################
+conda create --name tensorflow python=3.5.2
+conda info --envs
+# conda environments:
+#
+tensorflow            *  C:\Anaconda2\envs\tensorflow
+root                     C:\Anaconda2
+ activate tensorflow
+
+ deactivate tensorflow
+ 
+ 
+ 用 activate tensorflow 使用环境后就可以在新的环境里安装各种包，比如安装tensorflow-gpu
