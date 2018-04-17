@@ -1,0 +1,6 @@
+ERROR：：UnicodeDecodeError: 'ascii' codec can't decode byte 0xcb in position 2: ordinal not in range(128)
+SOLVE：
+import sys  
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
